@@ -1,11 +1,11 @@
-const { downloadWithResolution } = require('./api/api1.js');
-const { downloadWithoutResolution } = require('./api/api2.js');
+const ytmp4 = require('./api/ytmp4.js');
+const ytmp3 = require('./api/ytmp3.js');
+const search = require('./api/yts.js');
+const getInfo = require('./api/getInfo.js');
 
-async function downloadYouTube(url, options) {
-  if (typeof options === 'string') {
-    return await downloadWithResolution(url, options);
-  }
-  return await downloadWithoutResolution(url);
-}
-
-module.exports = { downloadYouTube };
+module.exports = {
+  ytmp4,
+  ytmp3,
+  search,
+  getInfo
+};
