@@ -1,15 +1,12 @@
 {
   "name": "hydra-ytdl",
   "version": "1.0.0",
-  "description": "Simple YouTube downloader using multiple APIs",
+  "description": "Library YouTube downloader berbasis multi API",
   "main": "index.js",
-  "scripts": {
-    "test": "node test.js"
-  },
-  "keywords": ["youtube", "downloader", "video", "audio", "yt"],
-  "author": "Hydra",
+  "type": "module",
+  "author": "skyzoo92",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.6.0"
+    "axios": "^1.6.7"
   }
 }
