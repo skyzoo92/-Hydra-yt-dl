@@ -1,5 +1,5 @@
 {
-  "name": "@hydra-ytdl",
+  "name": "hydra-ytdl",
   "version": "1.3.0",
   "description": "Simple YouTube downloader using multiple APIs",
   "main": "index.js",
